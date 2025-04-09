@@ -237,7 +237,7 @@ class Solution:
 
 4. python中的逻辑运算符，and,or,not
 
-5. git代码管理
+5. git代码管理（基础上传）
 
    1. `git init`把这个目录编程Git可以管理的仓库
    2. `git add` 后可加单一文件名，也可加`.`把当前目录所有文件add
