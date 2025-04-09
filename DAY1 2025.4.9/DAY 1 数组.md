@@ -239,8 +239,12 @@ class Solution:
 
 5. git代码管理（基础上传）
 
-   1. `git init`把这个目录编程Git可以管理的仓库
-   2. `git add` 后可加单一文件名，也可加`.`把当前目录所有文件add
-   3. `git commit -m "comment"`把文件提交到仓库
-   4. `git remote add origin .....`关联远程仓库
-   5. `git push -u origin master`把本地所有内容推送到远程库上
+   1. 代码上传
+      1. `git init`把这个目录编程Git可以管理的仓库
+      2. `git add` 后可加单一文件名，也可加`.`把当前目录所有文件add
+      3. `git commit -m "comment"`把文件提交到仓库
+      4. `git remote add origin .....`关联远程仓库
+      5. `git push -u origin master`把本地所有内容推送到远程库上
+   2. 遇到的问题
+      1. 连接超时：解决方案，让git走代理：https://blog.csdn.net/weixin_44223180/article/details/133059575
+      2. 将master 和main分支合并
