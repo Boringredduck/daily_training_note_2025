@@ -567,3 +567,8 @@ exp1 if contion else exp2 如`max = a if a>b else b`
 
 ### 12.Python sum() 函数
 
+### 13.查看并导出git记录
+
+`git log`:查看git历史提交记录
+
+`git log > ./log.txt`:导出到当前目录下的 log.txt
