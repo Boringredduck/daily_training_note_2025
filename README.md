@@ -1,0 +1,1 @@
+#daily_training_note_2025
